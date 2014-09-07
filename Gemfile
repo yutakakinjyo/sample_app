@@ -4,6 +4,9 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.4'
 # Use sqlite3 as the database for Active Record
 
+gem 'bootstrap-sass'
+gem 'sprockets'
+
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails'
