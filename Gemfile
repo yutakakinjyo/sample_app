@@ -8,6 +8,7 @@ group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails'
   gem 'capybara'
+  gem 'guard-rspec'
 end
 
 group :production do
@@ -51,3 +52,8 @@ gem 'spring',        group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+gem 'rb-readline'
+gem 'spork-rails'
+gem 'guard-spork'
+gem 'childprocess'
