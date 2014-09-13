@@ -50,8 +50,6 @@ describe 'User Pages' do
 
       end
 
-    describe ''
-
     end
 
   end

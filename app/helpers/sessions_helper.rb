@@ -21,6 +21,6 @@ module SessionsHelper
 
   def sign_out
     self.current_user = nil
-    cooikes.delete(:remenber_token)
+    cookies.delete(:remember_token)
   end
 end
